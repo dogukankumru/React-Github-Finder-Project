@@ -22,7 +22,7 @@ GitHub User Finder is a sophisticated React application that allows users to sea
 ## Getting Started
 To use this project, follow these steps:
 
-  1. Clone the repository to your local machine: git clone https://github.com/dogukankumru/Github_finder.git
+  1. Clone the repository to your local machine: git clone https://github.com/dogukankumru/React-Github-Finder-Project.git
 
   2. Navigate to the project directory
 
