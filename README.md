@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# GitHub User Finder Project 
+GitHub User Finder is a sophisticated React application that allows users to search for GitHub profiles using a username. The application consists of three main pages: Home, About, and User.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+* Home Page
+  * User-friendly interface with a top navigation bar.
+  * Input field for entering a GitHub username.
+  * Clicking the "Go" button displays a card with the matched user's profile picture, username, and a "Visit Profile" button.
+  * Clicking the "Visit Profile" button opens the User Page for the selected GitHub user.
 
-## Available Scripts
+* User Page
+  * Detailed information about the selected GitHub user.
+  * Information about the user's latest repositories, personal details, followers, following, and more.
+  * A "Visit GitHub Profile" button opens the user's GitHub profile in a new tab.
 
-In the project directory, you can run:
+* About Page
+  * Provides brief information about the creator of the project.
 
-### `npm start`
+* Not Found Page
+  * Displays an error message and a redirect button to the Home page if an invalid value is entered directly in the URL.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+To use this project, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  1. Clone the repository to your local machine: git clone https://github.com/dogukankumru/Github_finder.git
 
-### `npm test`
+  2. Navigate to the project directory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  3. Install project dependencies (npm install)
 
-### `npm run build`
+  4. Start the development server (npm start)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  5. Open a web browser and access the application at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgments
+Thanks for Brad Traversy for inspiration and guidance.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+### Home Page
+<img width="1440" alt="Screenshot 2023-09-11 at 00 01 42" src="https://github.com/dogukankumru/Github_finder/assets/95023894/e6a13be3-8782-40e6-b5fa-06a9c598fe33">
+<img width="1440" alt="Screenshot 2023-09-11 at 00 02 59" src="https://github.com/dogukankumru/Github_finder/assets/95023894/5be72287-08ae-4082-bfc4-5a2bb8b33d76">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### User Page
+<img width="1437" alt="Screenshot 2023-09-11 at 00 03 54" src="https://github.com/dogukankumru/Github_finder/assets/95023894/639f15fd-e7a3-41e7-ba80-411ed9fa0e6a">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### About Page
+<img width="1440" alt="Screenshot 2023-09-11 at 00 04 31" src="https://github.com/dogukankumru/Github_finder/assets/95023894/9a9aadd9-fe46-49c3-bc7d-96fcb99af1d1">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Not Found Page
+<img width="1440" alt="Screenshot 2023-09-11 at 00 05 00" src="https://github.com/dogukankumru/Github_finder/assets/95023894/5c2e1aa6-faf7-4ddb-8d8a-be3b232be9f9">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
