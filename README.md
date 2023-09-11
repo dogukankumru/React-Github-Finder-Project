@@ -33,7 +33,7 @@ To use this project, follow these steps:
   5. Open a web browser and access the application at http://localhost:3000.
 
 ## Acknowledgments
-Thanks for Brad Traversy for inspiration and guidance.
+Thanks to Brad Traversy for inspiration and guidance.
 
 ## Screenshots
 
